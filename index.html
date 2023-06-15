@@ -1,0 +1,1470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adex</title>
+    <meta class="title" content="Adex" />
+    <meta
+      class="description"
+      content="This is a business agency html template "
+    />
+
+    <!--
+        -favicon
+    -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!--
+        -google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--
+        -custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+        -preload images
+    -->
+    <link rel="preload" as="image" href="./assets/images/hero-bg.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg" />
+  </head>
+  <body>
+    <!--
+    -header
+-->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo-light.svg"
+            width="74"
+            height="24"
+            alt="adex home"
+            class="logo-light"
+          />
+
+          <img
+            src="./assets/images/logo-dark.svg"
+            width="74"
+            height="24"
+            alt="adex home"
+            class="logo-light"
+          />
+        </a>
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo-light.svg"
+                width="74"
+                height="24"
+                alt="adex home"
+              />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="navbar-link">About</a>
+            </li>
+
+            <li>
+              <a href="#projects" class="navbar-link">Projects</a>
+            </li>
+
+            <li>
+              <a href="#blog" class="navbar-link">Blog</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="wrapper">
+            <a href="mailto:laavanjanlaa@gmail.com" class="contact-link"
+              >info@gamil.com</a
+            >
+
+            <a href="tel:0262054322" class="contact-link">026-2054322</a>
+          </div>
+
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-dribbble"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="#email" class="btn btn-primary">Free Trial</a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="overlay" data-overlay data-nav-toggler></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!--
+                hero
+            -->
+
+        <section
+          class="section hero has-bg-image"
+          id="home"
+          aria-label="home"
+          style="background-image: url('./assets/images/hero-bg.jpg')"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="h1 hero-title">
+                Crafting project specific solutions with expertise.
+              </h1>
+
+              <p class="hero-text">
+                We’re a creative company that focuses on establishing long-term
+                relationships with customers.
+              </p>
+
+              <div class="btn-wrapper">
+                <a href="#explore" class="btn btn-primary">Explore Now</a>
+                <a href="#contact2" class="btn btn-outline">Contact Us</a>
+              </div>
+            </div>
+
+            <div class="hero-slider" data-slider>
+              <div class="slider-inner">
+                <ul class="slider-container" data-slider-container>
+                  <li class="slider-item">
+                    <figure
+                      class="img-holder"
+                      style="--width: 575; --height: 550"
+                    >
+                      <img
+                        src="./assets/images/mypic.jpg"
+                        width="575"
+                        height="550"
+                        alt=""
+                        class="img-cover"
+                      />
+                    </figure>
+                  </li>
+                  <li class="slider-item">
+                    <div class="hero-card">
+                      <figure
+                        class="img-holder"
+                        style="--width: 575; --height: 550"
+                      >
+                        <img
+                          src="./assets/images/hero-slide-2.jpg"
+                          width="575"
+                          height="550"
+                          alt="hero banner"
+                          class="img-cover"
+                        />
+                      </figure>
+
+                      <button class="play-btn" aria-label="play adex intro">
+                        <ion-icon name="play" aria-hidden="true"></ion-icon>
+                      </button>
+                    </div>
+                  </li>
+                  <li class="slider-item">
+                    <div class="hero-card">
+                      <figure
+                        class="img-holder"
+                        style="--width: 575; --height: 550"
+                      >
+                        <img
+                          src="./assets/images/hero-slide-3.jpg"
+                          width="575"
+                          height="550"
+                          alt=""
+                          class="img-cover"
+                        />
+                      </figure>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <button
+                class="slider-btn prev"
+                aria-label="slide to previous"
+                data-slider-prev
+              >
+                <ion-icon name="arrow-back"></ion-icon>
+              </button>
+
+              <button
+                class="slider-btn next"
+                aria-label="slide to next"
+                data-slider-next
+              >
+                <ion-icon name="arrow-forward"></ion-icon>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!--
+              -#service
+            -->
+        <section
+          class="section service"
+          aria-labelledby="service-label"
+          id="about"
+        >
+          <div class="container">
+            <p class="section-subtitle" id="service-label">What We Do?</p>
+
+            <h2 class="h2 section-title">
+              The service we offer is specifically designed to meet your needs.
+            </h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">24/7 Support</h3>
+
+                  <p class="card-text">
+                    We know that small businesses operate outside of work hours.
+                    We will be there when you need us to assist you.
+                  </p>
+
+                  <a href="#" class="btn-text">
+                    <span class="span"> Learn More </span>
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon
+                      name="shield-checkmark-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">Secure Payments</h3>
+
+                  <p class="card-text">
+                    You and your clients will feel peace-of-mind with the
+                    industry’s most secure payment technology.
+                  </p>
+
+                  <a href="#" class="btn-text">
+                    <span class="span"> Learn More </span>
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon
+                      name="cloud-download-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">customer Support</h3>
+
+                  <p class="card-text">
+                    Our dedicated team operates the infrastructure, handles
+                    customer service and resolves customer issues by providing
+                    realtime services.
+                  </p>
+
+                  <a href="#" class="btn-text">
+                    <span class="span"> Learn More </span>
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon
+                      name="pie-chart-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">Market Research</h3>
+
+                  <p class="card-text">
+                    Our teams put their utmost effort to gather information
+                    about target markets and customers to know about them,
+                    starting with who they are.
+                  </p>
+
+                  <a href="#" class="btn-text">
+                    <span class="span"> Learn More </span>
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!--
+              about
+            -->
+        <section id="explore"></section>
+        <section class="section about" aria-labelledby="about-label">
+          <div class="container">
+            <figure class="about-banner">
+              <header>
+                <main>
+                  <section>
+                    <h2>Explore Adex</h2>
+                    <h1>via</h1>
+                    <h3><span class="change_content"></span></h3>
+                  </section>
+                </main>
+              </header>
+              <img
+                src="https://acore.org/wp-content/uploads/2018/03/Depositphotos_25081731_original-6000x3000.jpg"
+                width="800"
+                height="580"
+                loading="lazy"
+                alt="about banner"
+                class="w-100"
+              />
+            </figure>
+
+            <div class="about-container">
+              <p class="section-subtitle" id="about-label">Why Choose Us????</p>
+
+              <h2 class="h2 section-title">
+                We bring solutions to make life easier for our clients.
+              </h2>
+
+              <ul>
+                <li class="about-item">
+                  <div class="accordion-card" data-accordion>
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon
+                          name="chevron-down-outline"
+                          aria-hidden="true"
+                          class="down"
+                        ></ion-icon>
+
+                        <spna class="span h5"> Professional Design </spna>
+
+                        <p class="accordion-content">
+                          <br />Application services include app development,
+                          support, cloud migration, modernization, integration,
+                          security management, and more. In IT since 1989 and
+                          700+ experts onboard, Adex brings all-around services
+                          to turn your enterprise applications into max profit.
+                        </p>
+                      </button>
+                    </h3>
+                  </div>
+                </li>
+
+                <li class="about-item">
+                  <div class="accordion-card" data-accordion>
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon
+                          name="chevron-down-outline"
+                          aria-hidden="true"
+                          class="down"
+                        ></ion-icon>
+
+                        <spna class="span h5">
+                          Custom ERP Software Development Services
+                        </spna>
+
+                        <p class="accordion-content">
+                          <br />
+                          With 33 years of experience in enterprise software
+                          development, Adex offers end-to-end ERP development
+                          and support to help you get a deep visibility into
+                          business operations, streamline information flows and
+                          optimize business costs.
+                        </p>
+                      </button>
+                    </h3>
+                  </div>
+                </li>
+
+                <li class="about-item">
+                  <div class="accordion-card" data-accordion>
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon
+                          name="chevron-down-outline"
+                          aria-hidden="true"
+                          class="down"
+                        ></ion-icon>
+
+                        <spna class="span h5" >
+                          CRM Services
+                        </spna>
+
+                        <p class="accordion-content">
+                          <br />
+                          Since 2008, Adex has been working with CRM systems t o
+                          build effective and rewarding sales, marketing and
+                          customer service processes for our clients.
+                        </p>
+                      </button>
+                    </h3>
+                  </div>
+                </li>
+
+                <li class="about-item">
+                  <div class="accordion-card" data-accordion>
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon
+                          name="chevron-down-outline"
+                          aria-hidden="true"
+                          class="down"
+                        ></ion-icon>
+
+                        <spna class="span h5"> HR Software Development </spna>
+
+                        <p class="accordion-content">
+                          <br />
+                          HR software development services are aimed at creating
+                          HR software that streamlines such human resources as
+                          personnel tracking, payroll, benefits, recruiting,
+                          onboarding, learning and development, and more.
+                        </p>
+                      </button>
+                    </h3>
+                  </div>
+                </li>
+
+                <li class="about-item">
+                  <div class="accordion-card" data-accordion>
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon
+                          name="chevron-down-outline"
+                          aria-hidden="true"
+                          class="down"
+                        ></ion-icon>
+
+                        <spna class="span h5">
+                          eLearning Software Development Services
+                        </spna>
+
+                        <p class="accordion-content">
+                          <br />
+                          Since 2015, Adex has been building eLearning solutions
+                          that drive digital transformation of corporate
+                          learning resulting in human capital ROI growth. Adex’s
+                          team is ready to streamline your corporate learning
+                          with technology or modernize your current eLearning
+                          software. The goal of eLearning development is
+                          creating tools like LMS, LCMS, and LXP to help orgs
+                          increase learning efficiency and cut learning costs.
+                        </p>
+                      </button>
+                    </h3>
+                  </div>
+                </li>
+                <li class="about-item">
+                  <div class="accordion-card" data-accordion>
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon
+                          name="chevron-down-outline"
+                          aria-hidden="true"
+                          class="down"
+                        ></ion-icon>
+
+                        <spna class="span h5"> DIGITAL COMMERCE AGENCY </spna>
+
+                        <p class="accordion-content">
+                          <br />
+                          At its core, digital commerce is selling and buying
+                          goods and services online. The market is highly
+                          competitive, and businesses need to strive for more
+                          and more excellence to stay resilient, even though
+                          consumer demand for online shopping is remarkably
+                          strong now. Adex’s brings in technology expertise and
+                          a problem-oriented approach to drive positive and
+                          tangible changes across your business resulting in
+                          cost savings and revenue growth. Every day, we unpack
+                          and communicate a transformative value IT brings to
+                          business. Our result-oriented approach is recognized
+                          worldwide.
+                        </p>
+                      </button>
+                    </h3>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!--
+              -feature
+            -->
+
+        <section
+          class="section feature"
+          id="projects"
+          aria-labelledby="feature-label"
+        >
+          <div class="container">
+            <figure class="feature-banner">
+              <img
+                src="./assets/images/feature-banner.png"
+                alt="feature banner"
+                class="m-100"
+              />
+            </figure>
+
+            <div>
+              <p class="section-subtitle">Explore Our Offering</p>
+
+              <h2 class="h2 section-title">
+                We make your spending stress-free for you to have the perfect
+                control.
+              </h2>
+
+              <p class="section-text">
+                Our company offers various services on different fields.We go
+                beyond our limits to meet customer needs
+              </p>
+
+              <ul class="feature-list">
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> Software Development. </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> Testing & QA. </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> Application Services </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> UX/UI Design </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> IT Consulting </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="container">
+            <figure class="feature-banner">
+              <img
+                src="https://th.bing.com/th/id/R.a8c826937dbfcfa27912eb254a465b00?rik=KwKLST%2fv7zJDaA&pid=ImgRaw&r=0"
+                style="border-radius: 10px"
+                alt="feature banner"
+                class="m-100"
+              />
+            </figure>
+            <div class="feature-content">
+              <p class="section-subtitle">Software Development</p>
+
+              <h2 class="h2 section-title">
+                A software development company with 33 years of business
+                excellence.
+              </h2>
+
+              <p class="section-text">
+                we can develop reliable, scalable and secure software solutions
+                for any OS, browser and device.
+              </p>
+
+              <ul class="feature-list">
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> Software consulting </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> Custom software development </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> Software development outsourcing </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> Software product development </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="container">
+            <img
+              src="https://www.vskills.in/certification/blog/wp-content/uploads/2020/01/QA-Testing.jpg"
+              style="border-radius: 10px; height: 700px"
+            />
+          </div>
+          <div class="feature-content" style="margin: 10px 70px">
+            <p class="section-subtitle" id="feature-label">Testing & QA</p>
+
+            <h2 class="h2 section-title">
+              We offer full-range QA and testing outsourcing services.
+            </h2>
+
+            <p class="section-text">
+              We perform end-to-end testing of mobile, web and desktop
+              application at each stage of the development lifecycle
+            </p>
+
+            <ul class="feature-list">
+              <li>
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span"> QA outsourcing </span>
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span"> QA consulting </span>
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span"> Security testing </span>
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span"> Functional testing </span>
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span"> Usability testing </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="container">
+            <div>
+              <p class="section-subtitle">Application Services</p>
+
+              <h2 class="h2 section-title">
+                our experts help mid-sized and large firms.
+              </h2>
+
+              <p class="section-text">
+                build, test, protect, manage, migrate and optimize digital
+                solutions ensuring they're always up and running and achieve the
+                optimal TCO.
+              </p>
+
+              <ul class="feature-list">
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> Application management </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> Application modernization </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> Application integration </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> Application security services </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> Application development </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <figure class="feature-banner">
+              <img
+                src="https://th.bing.com/th/id/R.d2260d97d00a3848c2eda6e0af501283?rik=0sIsmhGxmQCslA&pid=ImgRaw&r=0"
+                alt="feature banner"
+                class="m-100"
+                style="border-radius: 10px"
+              />
+            </figure>
+          </div>
+
+          <div class="container">
+            <figure class="feature-banner">
+              <img src="./assets/images/ux.png" alt="feature banner"
+              class="m-100" style="border-radius: 10px;"">
+            </figure>
+
+            <div>
+              <p class="section-subtitle">UX/UI Design</p>
+
+              <h2 class="h2 section-title">
+                User experience and user interface design for all types of
+                websites, SaaS, and web/mobile apps.
+              </h2>
+
+              <p class="section-text">
+                We combine the latest UI/UX trends with our customers'
+                individual goals and needs to deliver intuitive, vibrant, and
+                impactful designs that power up businesses.
+              </p>
+
+              <ul class="feature-list">
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> User Interface (UI) Design </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> Responsive Web App Design </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> Responsive Web Design </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container">
+            <div>
+              <p class="section-subtitle">IT Consulting</p>
+
+              <h2 class="h2 section-title">
+                Our experts can help to develop and implement an effective IT
+                strategy.
+              </h2>
+
+              <p class="section-text">
+                assist in smooth digital transformation and system integration
+                as well as advise on improvements to your digital customer
+                experience.
+              </p>
+
+              <ul class="feature-list">
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">
+                      Digital Transformation Consulting
+                    </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> Project Management Consulting </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> Application integration </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> IT Service Management Consulting </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> Solution consulting </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <figure class="feature-banner">
+              <img
+                src="./assets/images/consult.jpg"
+                alt="feature banner"
+                class="m-100"
+                style="border-radius: 10px; margin-top: 50px"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!--
+              stats
+            -->
+        <section class="stats" aria-label="our ststs">
+          <div class="container">
+            <ul
+              class="stats-card has-bg-image"
+              style="background-image: url('./assets/images/stats-bg.jpg')"
+            >
+              <li>
+                <p class="card-test">
+                  <span class="h1">7518</span>
+
+                  <spna class="span">Completed Projects</spna>
+                </p>
+              </li>
+
+              <li>
+                <p class="card-test">
+                  <span class="h1">3472</span>
+
+                  <spna class="span">Happy Customers</spna>
+                </p>
+              </li>
+
+              <li>
+                <p class="card-test">
+                  <span class="h1">2184</span>
+
+                  <spna class="span">Expert Employees</spna>
+                </p>
+              </li>
+
+              <li>
+                <p class="card-test">
+                  <span class="h1">523</span>
+
+                  <spna class="span">Awards Won</spna>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section
+          class="section project"
+          id="blog"
+          aria-labelledby="project-level"
+        >
+          <div class="container">
+            <p class="section-subtitle" id="project-;abel">Case Studies</p>
+
+            <h2 class="h2 section-title">
+              Check out some of our awesome projects with creative ideas and
+              great design.
+            </h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="project-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="---width: ; --height: "
+                  >
+                    <img
+                      src="./assets/images/blog-1.jpg"
+                      width="560"
+                      height="350"
+                      loading="lazy"
+                      alt="Ligula tristique quis risus"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a
+                        href="https://www.scnsoft.com/blog/employee-intranet"
+                        class="card-title"
+                      >
+                        Employee Intranet: A Smart Way to Team Up
+                      </a>
+                    </h3>
+
+                    <p class="card-text">
+                      An employee intranet is a corporate web platform used
+                      exclusively for internal communication, information
+                      sharing, and document management
+                    </p>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="calendar-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <time class="meta-text" datetime="2022-04-14"
+                          >14 Apr 2022</time
+                        >
+                      </li>
+
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="document-text-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="meta-text">Coding</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="project-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="---width: ; --height: "
+                  >
+                    <img
+                      src="./assets/images/blog-2.jpg"
+                      width="560"
+                      height="350"
+                      loading="lazy"
+                      alt="Nullam id dolor elit id nibh"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a
+                        href="https://www.scnsoft.com/blog/why-you-need-it-audit"
+                        class="card-title"
+                      >
+                        IT Audit Services and Why You May Need Them
+                      </a>
+                    </h3>
+
+                    <p class="card-text">
+                      An IT audit is a process of independent examination of a
+                      company’s IT ecosystem needed to assess its effectiveness,
+                    </p>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="calendar-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <time class="meta-text" datetime="2022-03-29"
+                          >29 March 2022</time
+                        >
+                      </li>
+
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="document-text-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="meta-text">Workspace</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="project-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="---width: ; --height: "
+                  >
+                    <img
+                      src="./assets/images/blog-3.jpg"
+                      width="560"
+                      height="350"
+                      loading="lazy"
+                      alt="ullam id dolor elit id nibh"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a
+                        href="https://www.scnsoft.com/blog/investor-relationship-management-software"
+                        class="card-title"
+                      >
+                        Investor Relationship Management Software: More than
+                        Just a CRM
+                      </a>
+                    </h3>
+
+                    <p class="card-text">
+                      Major CRM advantages and the best software for investor
+                      relationship management. By Adex, in CRM development and
+                      consulting since 2008.
+                    </p>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="calendar-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <time class="meta-text" datetime="2022-02-26"
+                          >26 Feb 2022</time
+                        >
+                      </li>
+
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="document-text-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="meta-text">Meeting</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="project-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="---width: ; --height: "
+                  >
+                    <img
+                      src="./assets/images/blog-5.jpg"
+                      width="560"
+                      height="350"
+                      loading="lazy"
+                      alt="ullam id dolor elit id nibh"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a
+                        href="https://www.scnsoft.com/blog/blockchain-finance"
+                        class="card-title"
+                      >
+                        Blockchain in Finance: 8 Prominent Use Cases Beyond
+                        Crypto
+                      </a>
+                    </h3>
+
+                    <p class="card-text">
+                      The BFSI (banking, financial services and insurance)
+                      industry so far remains the leading blockchain adopter,
+                      accounting for 38% of the global blockchain market value.
+                    </p>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="calendar-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <time class="meta-text" datetime="2022-02-26"
+                          >26 Feb 2022</time
+                        >
+                      </li>
+
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="document-text-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="meta-text">Meeting</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!--
+              -#CTA
+            -->
+
+        <section class="cta" aria-label="call to action">
+          <div class="container">
+            <h2 class="h2 section-title">
+              Join our community by using our services and grow your business.
+            </h2>
+
+            <a href="#" class="btn btn-primary">Try it For Free</a>
+          </div>
+        </section>
+
+        <!--
+              footer
+            -->
+        <section id="contact2"></section>
+        <section id="contact"></section>
+        <footer class="footer">
+          <div class="container grid-list">
+            <div class="footer-brand">
+              <a href="#" class="logo">
+                <img
+                  src="./assets/images/logo-light.svg"
+                  width="74"
+                  height="24"
+                  alt="Adex home"
+                />
+              </a>
+
+              <p class="footer-text">
+                &copy; 2022 laavanjanlaa.<br />
+                All rights reserved.
+              </p>
+
+              <ul class="social-list">
+                <li>
+                  <a
+                    href="https://www.facebook.com/sciencesoft.solutions/"
+                    class="social-link"
+                  >
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/ScienceSoft" class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://dribbble.com/sciencesoft"
+                    class="social-link"
+                  >
+                    <ion-icon name="logo-dribbble"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/sciencesoft/"
+                    class="social-link"
+                  >
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/@Apple" class="social-link">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="footer-list">
+              <li>
+                <p class="h4 footer-list-title">Get in Touch</p>
+              </li>
+
+              <li>
+                <address class="footer-text">
+                  30,Barathy Street, Trincomalee, SriLanka
+                </address>
+              </li>
+
+              <li>
+                <a href="mailto:info@email.com" class="footer-link"
+                  >laavanjan@email.com</a
+                >
+              </li>
+
+              <li>
+                <a href="tel:001234567890" class="footer-link"
+                  >00 (123) 456 78 90</a
+                >
+              </li>
+            </ul>
+
+            <ul class="footer-list">
+              <li class="footer-list">
+                <p class="h4 footer-list-title">Learn More</p>
+              </li>
+
+              <li>
+                <a href="#about" class="footer-link">About Us</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Our Story</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Projects</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Terms of Use</a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.scnsoft.com/about/privacy-policy"
+                  class="footer-link"
+                  >Privacy Policy</a
+                >
+              </li>
+            </ul>
+
+            <div class="footer-list">
+              <p class="h4 footer-list-title">Our Newsletter</p>
+
+              <p class="footer-text">
+                Subscribe to our newsletter to get our news & deals delivered to
+                you.
+              </p>
+
+              <form action="" class="input-wrapper">
+                <input
+                  type="email"
+                  name="email-address"
+                  placeholder="Email Address"
+                  required
+                  id="email"
+                  class="input-field"
+                />
+
+                <button type="submit" class="submit-btn">Join</button>
+              </form>
+            </div>
+          </div>
+        </footer>
+      </article>
+    </main>
+
+    <!--
+        -custom js link
+    -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+        - ionicon
+    -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
